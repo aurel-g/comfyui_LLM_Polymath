@@ -2,7 +2,6 @@ from .polymath import PolymathSettings, Polymath, MediaScraper
 from .helper import SaveAbs, TextSplitter, StringListPicker
 #from .concept_eraser import ConceptEraserNode
 from .textmask import TextMaskNode
-from .template import TemplateNode
 
 NODE_CLASS_MAPPINGS = {
     "polymath_settings": PolymathSettings,
@@ -11,8 +10,7 @@ NODE_CLASS_MAPPINGS = {
     "polymath_helper": SaveAbs,
     "polymath_TextSplitter": TextSplitter,
     "polymath_StringListPicker": StringListPicker,
-    "polymath_text_mask": TextMaskNode,
-    "polymath_template": TemplateNode
+    "polymath_text_mask": TextMaskNode
     #"polymath_concept_eraser": ConceptEraserNode,
 }
 
@@ -22,8 +20,7 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "polymath_helper": "Save Image to Absolute Path",
     "polymath_TextSplitter": "Split Texts by Specified Delimiter",
     "polymath_StringListPicker": "Picks Texts from a List by Index",
-    "polymath_text_mask": "Generate mask from text",
-    "polymath_template": "Simple Node Template"
+    "polymath_text_mask": "Generate mask from text"
     #"polymath_concept_eraser": "Erase Concept from Model"
 }
 
